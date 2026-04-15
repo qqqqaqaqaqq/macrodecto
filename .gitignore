@@ -1,0 +1,58 @@
+# 빌드 결과물
+bin/
+obj/
+*.dll
+
+# 로그 파일
+*.log
+
+# 환경설정 파일
+.env
+*.config
+
+# OS별 임시 파일
+.DS_Store
+Thumbs.db
+
+# IDE 관련
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+backend/myenv311/
+
+# Python 캐시/빌드 파일
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+/**/__pycache__/
+/**/*.pyc
+/**/*.log
+/**/*.tmp
+/**/*.temp
+/**/*.egg-info/
+/**/.DS_Store
+/**/myenv311/
+/**/node_modules/
+/**/dist/
+/**/.env*
+/**/github/workflows/
+
+
+/**/path/to/
+path/to/
+**/path/to/
+
+/**/log/
+/**/logs/
+/**/build/
+
+*json
+
+/macroSample
+
+/**/weights/
